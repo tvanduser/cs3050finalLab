@@ -24,6 +24,7 @@ bool isEdgeInMST(Edge * mst, int mstSize, int check_dest, int check_source){
 int main() {
     // Check if a given edge is in the MST
     // TODO: Implement this problem's solution
+
     // **assuming that a MST will already be passed in and we are just checking if the edge is in it**
     int vertexCount = 4;
     int mstSize = vertexCount - 1; // MST has V-1 edges
